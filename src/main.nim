@@ -1,12 +1,10 @@
 import ../lib/arduino
-import ../lib/led
-import ../lib/sleep
 
 setup:
-  led_setup()
+  pinMode(LED_BUILTIN, OUTPUT)
 
 loop:
-  led_on()
-  sleep(1000)
-  led_off()
-  sleep(1000)
+  digitalWrite(LED_BUILTIN, HIGH)
+  delay(1000)
+  digitalWrite(LED_BUILTIN, LOW)
+  delay(1000)
