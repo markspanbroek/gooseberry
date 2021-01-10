@@ -1,7 +1,0 @@
-{
-  "name": "nim-platformio",
-  "version": "0.1.0",
-  "build": {
-    "extraScript": "compile.py"
-  }
-}
