@@ -1,4 +1,4 @@
-import ../lib/arduino
+import pkg/nim-arduino/arduino
 
 setup:
   pinMode(LED_BUILTIN, OUTPUT)
